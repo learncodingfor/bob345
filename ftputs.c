@@ -1,14 +1,13 @@
 static PyObject *module_func(PyObject *self, PyObject *args) {
     Py_RETURN_NONE;
-    //c code here
-    
+    //c code here  
 }
 int ftputs(const char *, FILE *)
 #include <stidio.h>
 #include <stdlib.h>
 #include <unistd.h>
 int main(){
-    FILE *fp = fopen("write.txt",'w');
+    FILE *fp = fopen("write.txt",'w'
     fputs("real python!");
     fclose(fp);
     
