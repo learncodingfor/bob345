@@ -77,6 +77,6 @@ static PyObiect *method_ftputs(PyObject *self, PyObject * args){
     return PyLong_FromLong(bytes_copied);
 }
 static PyMethodDef FputsMethods[] = {
-    {"ftputs", method_ftputs, METH_VARARGS, "python interface for ftputs C library functionl"},
+    {"ftputs", method_ftputs, METH_VARARGS, "python interface for ftputs C library function"},
     {NULL, NULL, 0, NULL}
 };
