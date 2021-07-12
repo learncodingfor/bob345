@@ -54,4 +54,4 @@ static PyObject *module_func(PyObject *self, PyObject *args) {
 int ftputs(const char *, FILE *)
 #include <stidio.h>
 #include <stdlib.h>
-#include <unisted.h>
+#include <unistd.h>
