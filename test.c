@@ -2,7 +2,7 @@
 // Function 1: A simple 'hello world' function
 static PyObject* helloworld(PyObject* self, PyObject* args)
 {
-    printf("Hello World\n");
+    printf("Hello World!\n");
     return Py_None;
 }
 
