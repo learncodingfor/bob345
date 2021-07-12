@@ -1,4 +1,3 @@
-#include <python.h>
 // Function 1: A simple 'hello world' function
 static PyObject* helloworld(PyObject* self, PyObject* args)
 {
