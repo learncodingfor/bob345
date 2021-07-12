@@ -80,3 +80,11 @@ static PyMethodDef FputsMethods[] = {
     {"ftputs", method_ftputs, METH_VARARGS, "python interface for ftputs C library function"},
     {NULL, NULL, 0, NULL}
 };
+static struct PyModuleDef fputsmodule = {
+    PyModuleDef_HEAD_INIT,
+    "ftputs","python interface for the ftputs c library function",-1,
+   FtputsMethods
+ }
+PyMODINIT_FUNC PyInit_ftputs(void) {
+    return PyModule_Create(&fputsmodule);
+}
