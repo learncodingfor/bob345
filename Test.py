@@ -1,3 +1,3 @@
-import myModal
-myModal.fib(2)
-myModal.helloworld()
+import myModel
+myModel.fib(2)
+myModel.helloworld()
