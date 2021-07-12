@@ -7,7 +7,7 @@ int ftputs(const char *, FILE *)
 #include <stdlib.h>
 #include <unistd.h>
 int main(){
-    FILE *fp = fopen("write.txt",'w'
+    FILE *fp = fopen("write.txt",'w');
     fputs("real python!");
     fclose(fp);
     
