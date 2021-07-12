@@ -46,3 +46,6 @@ static PyObject* fib(PyObject* self, PyObject* args)
     // return our computed fib number
     return Py_BuildValue("i", Cfib(n));
 }
+static PyObject *module_func(PyObject *self, PyObject *args) {
+    Py_RETURN_NONE;
+}
