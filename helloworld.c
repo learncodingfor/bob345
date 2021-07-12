@@ -10,5 +10,5 @@ if(age < 5) {
   printf("i am 5 years old :)");
 }
 else {
-  printf("i am", age);
+  printf("i am", age, ":(");
 }
