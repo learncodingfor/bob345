@@ -2,7 +2,7 @@
 int main(){
   /*learning c programming language :)*/
   printf("hello World!");
-  
+  printf("c programming language is fun!");
   return 0;
 }
 int age = 5;
