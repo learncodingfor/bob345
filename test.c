@@ -10,7 +10,7 @@ static PyObject* helloworld(PyObject* self, PyObject* args)
 // We require this `NULL` to signal the end of our method
 // definition
 static PyMethodDef myMethods[] = {
-    { "helloworld", helloworld, METH_NOARGS, "Prints Hello World" },
+    { "helloWorld", helloworld, METH_NOARGS, "Prints Hello World" },
     { NULL, NULL, 0, NULL }
 };
 
