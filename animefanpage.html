@@ -5,7 +5,8 @@
 <button onclick="addcookie()">create an anime page</button>
 <script>
   let addcookie= () =>{
-    var page = prompt("page name>:
+    var page = prompt("page name")
     $.cookie("pagename", page);
+    alert(page)
   }
 </script>
