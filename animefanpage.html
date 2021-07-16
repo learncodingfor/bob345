@@ -1,1 +1,13 @@
 <a href="mailto:mullallyethan1@gmail.com">my email(send me an email about what the anime is about and i will create the page and let you code it (note you have to give me your github account username in order for editing)</a>
+<p>or</p>
+<script>function download(text, name, type) {
+  var a = document.getElementById("a");
+  var file = new Blob([text], {type: type});
+  a.href = URL.createObjectURL(file);
+  a.download = name;
+   var p = prompt("whats your file name make sure it ends with.html and no spaces")
+   var n = prompt("what is the name of the page?")
+    
+  }</script>
+<a href="" id="a">click here to download your file</a>
+<button onclick="download(n), p 'text/plain'">create page</button>
