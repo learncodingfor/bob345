@@ -1,1 +1,11 @@
 <a href="mailto:mullallyethan1@gmail.com">my email(send me an email about what the anime is about and i will create the page and let you code it (note you have to give me your github account username in order for editing)</a>
+<p>or</p>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<sscript src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+<button onclick="addcookie()">create an anime page</button>
+<script>
+  let addcookie= () =>{
+    $.cookie("pagename", page);
+    var page = prompt("page name")
+  }
+</script>
