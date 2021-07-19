@@ -3,7 +3,7 @@
 <p>welcome to wikianime.go!</p>
 <p>animes</p>
 <head><link rel="stylesheet" href="https://pytube832.github.io/wikianime.jp/nav.css"/></head>
-<ul class="animes">
+<ul class="animes" id="a">
   <li><a href="wiki.jojo.html">jojo's bizarre adventure's (anime)</a></li>
   <li><a href="wiki.fmab.html">full metal alchemist brotherhood</a></li>
 </ul>
@@ -16,4 +16,7 @@
 <a href="animefanpage.html">create an anime fan page</a>
 <a href="mangafanpage.html">create a manga fan page</a>
 <noscript>JavaScript is needed for this website to work so please enable it</noscript>
-
+<select id="c"><option value="1">with css</option><option value="2">without css</option></select>
+<script>
+  var s= document.getElementById("c").value;
+  if(s== 2){document.getElementById("a").style.display="none";}
